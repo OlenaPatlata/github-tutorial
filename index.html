@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Git rules!</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    
 </head>
 <body>
     <!-- Проба пера -->
@@ -68,9 +73,7 @@
             </li>
         </ol>
 
-      <ol>
-
-      </ol>  
+    
       <a href="https://google.com">Ссылка на главную страницу Google</a>
       <a href="https://www.facebook.com/">Facebook</a>
       <a href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener">
@@ -135,7 +138,7 @@
         </tbody>    
       </table>
 <!-- Расписание поездов таблица -->
-      <table>
+      <table class="schedule">
         <thead>
           <tr>
             <th>Номер</th>
@@ -144,7 +147,7 @@
           </tr>
         </thead>
       
-        <tbody>
+        <tbody class="schedule-body">
           <tr>
             <td>433</td>
             <td>Киев - Ковель</td>
@@ -197,15 +200,116 @@
       <!-- фото -->
       <img src="https://images.pexels.com/photos/10124767/pexels-photo-10124767.jpeg" alt="фото скалы" width="230">
       <!-- вставляю видео с ютуба -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/D5anNTxjwS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/D5anNTxjwS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       <!-- задание 6 -->
       <div class="box">
-        <a href="#" class="link-inline">Text</a>
+        <a href="#" class="link-inline"><span>Text</span></a>
         without line break
       </div>
       <div class="box">
-        <a href="#" class="link-block">Text</a>
+        <a href="#" class="link-block"><p>Text</p></a>
         with line break
       </div>
+      <!-- задание 7 -->
+      <div class="card">
+        <h3 class="card-title">The order in which files are loaded by the browser</h3>
+        <ol class="card-items">
+          <li class="card-item">HTML file</li>
+          <li class="card-item">Link to files inside head</li>
+          <li class="card-item">Link to files inside body</li>
+        </ol>
+      </div>
+
+      <a class="link"
+      target="_blank"
+      href="https://goit.global">
+      <img src="https://ac.goit.global/img/photo1.jpg"
+      alt="note in laptop"/>
+      </a>
+      <!-- начало css -->
+      <p style="color:blue; font-size:24px;">Этот текст будет синим.</p>
+      <!-- 1 -->
+      <ul class="menu">
+        <li>
+          Комьютеры и комплектующие
+          <ul class="submenu">
+            <li>Процессоры</li>
+            <li>Мониторы</li>
+            <li>Видеокарты</li>
+          </ul>
+        </li>
+        <li>
+          Бытовая техника
+          <ul class="submenu">
+            <li>Холодильники</li>
+            <li>Телевизоры</li>
+            <li>Стиральные машины</li>
+          </ul>
+        </li>
+        <li>
+          Товары для дома
+          <ul class="submenu">
+            <li>Кресла</li>
+            <li>Матрасы</li>
+            <li>Электрокамины</li>
+          </ul>
+        </li>
+      </ul>
+      <!-- 2 -->
+      <h1 class="title">Привет, я Mango.</h1>
+        <p class="text">Добро пожаловать на мою личную страницу. Тут можно посмотреть
+            <a class="link" href="">проекты</a>.
+        </p>
+        <!-- 3 -->
+        <p class="first word">Первое правило</p>
+        <p class="second word">Второе правило</p>
+        <p class="thirst word">Третье правило</p>
+        <!-- Селектор потомка -->
+        <a href="">Читайте наш блог!</a>
+        <ul class="social-links">
+          <li>
+            <a href="">Twitter</a>
+          </li>
+          <li>
+            <a href="">Instagram</a>
+          </li>
+          <li>
+            <a href="">Facebook</a>
+          </li>
+        </ul>
+        <!-- атрибут и значение -->
+        <a href="https://htmlreference.io" title="Справочник тегов">
+          htmlreference.io
+        </a>
+        <a href="https://cssreference.io" title="Справочник стилей">
+          cssreference.io
+        </a>
+        <a href="https://www.youtube.com">YouTube</a>
+        <!-- псевдоклас:hower -->
+        <p>
+          Отличную шпаргалку по тегам можно найти
+          <a class="link" href="https://htmlreferencen.io">по ссылке</a>.
+        </p>
+        <!-- Применение псевдокласса к контекстным селекторам -->
+        <ul class="social-links-up">
+          <li><a class="link-up" href="https://twitter.com">Twitter</a></li>
+          <li><a class="link-up" href="https://www.instagram.com">Instagram</a></li>
+          <li><a class="link-up" href="https://www.facebook.com">Facebook</a></li>
+        </ul>
+        <!-- text-transform -->
+        <ul class="site-nav">
+          <li><a href="" class="link-site-nav">Blog</a></li>
+          <li><a href="" class="link-site-nav">Workshops</a></li>
+          <li><a href="" class="link-site-nav">Podcasts</a></li>
+          <li><a href="" class="link-site-nav">About</a></li>
+        </ul>
+        <!-- text-align -->
+        <p class="post-text align-right">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
+          veritatis nihil alias iste odit similique sit eius optio veniam, impedit
+          cumque fuga facere labore quo id necessitatibus quaerat rerum.
+        </p>
+        <!-- shadow -->
+        <h1 class="title-shadow">Fusce posuere ligula elementum purus</h1>
 </body>
 </html>

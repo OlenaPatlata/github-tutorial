@@ -1,3 +1,113 @@
 body{
     background-color: rgb(236, 150, 236);
+    font-family: 'Comforter Brush', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
 }
+.menu > li {
+    border: 1px solid tomato;
+  }
+  /* Применится ко всем тегам с классом title */
+.title {
+    font-weight: 500;
+    color: blue;
+  }
+    /* Применится ко всем тегам с классом text */
+  .text {
+    color: brown;
+    font-size: 18px;
+  }
+    /* Применится ко всем тегам с классом link */
+  /* .link {
+    text-decoration: none;
+  } */
+  .word{
+      font-weight: 600;
+      color: crimson;
+  }
+  .first{
+      color: darkgreen;
+        }
+  .second{
+        color: darkorange;
+        }
+        .thirst{
+            color: rgb(10, 3, 77);
+        }
+/* Селектор потомка */
+        a {
+            color: blue;
+            text-decoration: none; */
+        }
+        /* Применится только к ссылкам которые лежат внутри тега с классом social-links */
+        .social-links a {
+            color: rgb(88, 8, 42);
+            text-decoration: none;
+          }
+          /* атрибут и значение */
+            a[href="https://htmlreference.io"]
+            {
+            color: teal;
+            }
+            a[href="https://cssreference.io"]
+            {
+            color: #ff8800;
+            }
+            a[href="https://www.youtube.com"]
+            {
+            color: tomato;
+            }
+            /* севдоклас:hower */
+            .link{
+                color: rgb(161, 22, 4);
+            }
+            .link:hover{
+                color: mediumblue;
+            }
+            /*Применение псевдокласса к контекстным селекторам  */
+            .social-links-up .link-up {
+                color: teal;
+              }
+            .social-links-up .link-up:hover {
+                color: tomato;
+              }
+              /* стили для расписания поездов*/
+              .schedule{
+                  color: springgreen;
+                  background-color: orange;
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
+              }
+              .schedule-body tr:hover{
+                  color: #e4dee4;
+                  background-color: tomato;
+              }
+              .schedule tr td{
+                padding: 8px;
+                border: 1px solid #212121;
+              }
+              .schedule th{
+                padding: 8px;
+                border: 1px solid #212121;
+              }
+              .schedule th:hover{
+                  color: rgb(14, 14, 10);
+                  background-color: royalblue;
+              }
+              /* <!-- text-transform --> */
+              .site-nav .link-site-nav {
+                text-transform: capitalize;
+              }
+              /* text-align */
+              .post-text{
+                text-align:  left;
+                text-indent: inherit;
+                }
+              /* shadow */
+              .title-shadow{
+                font-style: italic;
+                color: white;
+              text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
+              }
+
+
+
+
+              
