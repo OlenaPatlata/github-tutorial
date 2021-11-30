@@ -106,6 +106,25 @@ body{
                 color: white;
               text-shadow: 2px 2px 20px #ff0000, 5px 5px 5px #000000;
               }
+        .border{
+          border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: blue;
+        
+        border-right-width: 5px;
+  border-right-style: dotted;
+  border-right-color: black;
+
+  /* Установит стили нинжней рамки */
+  border-bottom-width: 7px;
+  border-bottom-style: dashed;
+  border-bottom-color: palevioletred;
+
+  /* Установит стили левой рамки */
+  border-left-width: 9px;
+  border-left-style: dashed;
+  border-left-color: green;
+}
 
 
 
