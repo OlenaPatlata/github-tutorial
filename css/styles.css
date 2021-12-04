@@ -42,7 +42,7 @@ body{
 /* Селектор потомка */
         a {
             color: blue;
-            text-decoration: none; */
+            text-decoration: none;
         }
         /* Применится только к ссылкам которые лежат внутри тега с классом social-links */
         .social-links a {
