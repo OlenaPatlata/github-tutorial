@@ -44,3 +44,20 @@ body{
 .logo:focus{
     text-decoration: underline;
 }
+/* Техника создания "сеток" */
+.container{
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.card-set{
+    display: flex;
+    /* Делаем Flex-контейнет многострочным */
+    flex-wrap: wrap;
+    /* Компенсируем маржины элементов */
+    margin-left: -10px;
+    margin-top: -10px;
+    padding: 0;
+    list-style: none;
+}
