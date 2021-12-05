@@ -61,3 +61,22 @@ body{
     padding: 0;
     list-style: none;
 }
+.item{
+    padding: 10px;
+    /* Задаём всем элементам маржины слева и сверху */
+    margin-left: 10px;
+    margin-top: 10px;
+    /*  Задаём ширину элементов  */
+    flex-basis: calc((100% - 30px) / 3);
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    }
+.item h1{
+    margin-top: 0;
+    font-size: 20px;
+    }
+.item p{
+    margin: 0;
+}
