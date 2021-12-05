@@ -80,3 +80,28 @@ body{
 .item p{
     margin: 0;
 }
+/* Марджин тренировка */
+.container-mar {
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    background: burlywood;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .box {
+    width: 130px;
+    min-height: 75px;
+    background-color: teal;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px
+  }
+  
+  .box-left {
+  margin-right: auto;
+  }
